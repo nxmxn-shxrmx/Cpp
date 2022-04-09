@@ -1,0 +1,1 @@
+{"name":"Local: ww","url":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\ww.cpp","tests":[{"id":1643478759624,"input":"4 10 2 3\n1 2 3 4","output":"4\n2\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\ww.cpp","group":"local","local":true}

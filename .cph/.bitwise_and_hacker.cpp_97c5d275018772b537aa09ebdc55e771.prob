@@ -1,0 +1,1 @@
+{"name":"Local: bitwise_and_hacker","url":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\bitwise_and_hacker.cpp","tests":[{"id":1636833303378,"input":"4\n1\n2\n1\n3","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\bitwise_and_hacker.cpp","group":"local","local":true}

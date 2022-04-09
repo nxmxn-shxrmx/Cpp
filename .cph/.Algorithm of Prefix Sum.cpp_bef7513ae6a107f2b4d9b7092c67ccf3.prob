@@ -1,0 +1,1 @@
+{"name":"Local: Algorithm of Prefix Sum","url":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\Algorithm of Prefix Sum.cpp","tests":[{"id":1633191736435,"input":"4 3\n1 4 6 3\n1 4\n2 3\n2 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\Algorithm of Prefix Sum.cpp","group":"local","local":true}
