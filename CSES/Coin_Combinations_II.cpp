@@ -14,13 +14,23 @@ int main(){
     cout.tie(0);
 
     ll n,x;cin>>n>>x;
-
     vector<ll>v(n);
     for(int i = 0;i<n;++i)
     cin>>v[i];
-    map<ll,ll>m;
+    vector<ll>co(x+1,0);
+    co[0]=1;
 
-    
+    for(int i = 0;i<n;++i)
+    {
+        for(int j = 1;j<=x;++j)
+        {
+            if(j-v[i]>=0)
+                co[j]+=co[j-v[i]];
+            co[j]%=mod;
+        }
+    }
+    cout<<co[x]<<"\n";
 
     return 0;
 }
+
