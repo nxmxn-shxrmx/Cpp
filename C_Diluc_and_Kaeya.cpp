@@ -14,33 +14,32 @@ int main(){
     cout.tie(0);
 
     int t;cin>>t;
-    while (t--)
+    while(t--)
     {
         int n;cin>>n;
-        map<char,int>m;
+        string s;cin>>s;
+
+        int d = 0;
+        int k = 0;
+
+        map<pair<int,int>,int>m;
+
         for(int i = 0;i<n;++i)
         {
-            char f;cin>>f;
-            m[f]++;
-            if(m['D']==0 || m['K']==0)
-            cout<<max(m['D'],m['K'])<<" ";
-            else
-            {
-                int ma = max(m['D'],m['K']);
-                int mi = min(m['D'],m['K']);
-                if(ma%mi==0)
-                cout<<mi<<" ";
+            if(s[i]=='K')
+            k++;
 
-                else
-                cout<<1<<" ";
-            }
+            else
+            d++;
+
+            int h = __gcd(d,k);
+            int a = d/h;
+            int b = k/h;
+            m[{a,b}]++;
+            cout<<m[{a,b}]<<" ";
         }
         cout<<"\n";
-
     }
-    
-
-
 
     return 0;
 }

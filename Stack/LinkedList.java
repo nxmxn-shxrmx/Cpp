@@ -71,6 +71,11 @@ class LinkedList
             head = temp;
             return;
         }
+        if(index==size()+1)
+        {
+            insertAtEnd(val);
+            return;
+        }
         if(index>size()+1)
         {
             System.out.println(size());
@@ -159,7 +164,7 @@ class LinkedList
         // obj.show(head); 
         // System.out.println(obj.size());
         obj.insertAtPos(1, 12);
-        obj.insertAtPos(20, 2);
+        obj.insertAtPos(2, 20);
         obj.insertAtPos(2, 2);
         obj.insertAtPos(3, 4);
         obj.deleteAtPos(3);
