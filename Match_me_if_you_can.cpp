@@ -4,8 +4,8 @@ using namespace std;
 
 #define ll long long
 #define mod (ll)(1e9 +7)
-const int N = 1e6 + 100;
-
+const int N = 1e6 + 10;
+ll le[N];
 long long fact[N];
 void initfact() {
     fact[0] = 1;
@@ -27,8 +27,6 @@ ll bioexpo(ll a,ll b)
     }
     return res;
 }
-
-const int N =1e5+10;
 
 int main(){
 
