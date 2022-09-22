@@ -31,9 +31,9 @@ int main(){
     cin.tie(0);
     cout.tie(0);
 
-    int t;cin>>t;
-    while(t--)
-    {
+    // int t;cin>>t;
+    // while(t--)
+    // {
         int n,m;
         cin>>n>>m;
         vector<int>v;
@@ -64,7 +64,7 @@ int main(){
 
         else
         cout<<q<<"\n";
-    }
+    // }
 
 
     return 0;

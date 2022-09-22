@@ -160,7 +160,7 @@ ll bioexpo(ll a,ll b)
     }
     return res;
 }
-ll n,m,x,y;
+int n,m,x,y;
 ll w[N],b[N];
 ll dp[N][2];
 int main(){
@@ -169,12 +169,12 @@ int main(){
     cin.tie(0);
     cout.tie(0);
 
-    read(n,m,x,y);
+    cin>>n>>m>>x>>y;
     FOR(i,1,n+1)
     {
         FOR(j,1,m+1)
         {
-            char c;read(c);
+            char c;cin>>c;
             if(c=='#')
             b[j]++;
             else 
@@ -185,6 +185,8 @@ int main(){
     {
         b[i]+=b[i-1];
         w[i]+=w[i-1];
+
+       // print(b[i],w[i]);
     
     } 
     FOR(i,m+1)
@@ -198,11 +200,10 @@ int main(){
     dp[0][1]=0;
     FOR(i,x,m+1)
     {
-        FOR(j,x,y+1)
+        FOR(j,x,min(i+1,y+1))
         {
-           
-            dp[i][0]=min(dp[i][0],dp[i-j][0]+w[i]-w[i-j]);
-            dp[i][1]=min(dp[i][1],dp[i-j][1]+b[i]-b[i-j]);
+            dp[i][0]=min(dp[i][0], dp[i-j][0]+w[i]-w[i-j]);
+            dp[i][1]=min(dp[i][1], dp[i-j][1]+b[i]-b[i-j]);
               // cout<<dp[i][0]<<" "<<dp[i][1]<<"\n";
         }
     }   

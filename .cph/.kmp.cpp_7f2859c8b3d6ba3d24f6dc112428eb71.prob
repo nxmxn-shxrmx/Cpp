@@ -1,0 +1,1 @@
+{"name":"Local: kmp","url":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\kmp.cpp","tests":[{"id":1657935981073,"input":"abcabcabc\nabc","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\kmp.cpp","group":"local","local":true}

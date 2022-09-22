@@ -1,0 +1,1 @@
+{"name":"Local: codingblock_ramu","url":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\codingblock_ramu.cpp","tests":[{"id":1662280963282,"input":"1\n4 2\n12 34 67 90","output":"113"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\codingblock_ramu.cpp","group":"local","local":true}

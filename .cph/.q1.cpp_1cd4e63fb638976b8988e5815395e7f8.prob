@@ -1,0 +1,1 @@
+{"name":"Local: q1","url":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\q1.cpp","tests":[{"id":1659781571548,"input":"4\n1 5 2 6\n4\n1 4 5 7\n4 7 1 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Cpp\\q1.cpp","group":"local","local":true}
