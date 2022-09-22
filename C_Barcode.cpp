@@ -147,13 +147,6 @@ void initfact() {
         fact[i] %= mod;
     }
 }
-ll minu(int a,int b)
-{
-    if(a<=b)
-    return a;
-    
-    return b;
-}
 ll bioexpo(ll a,ll b)
 {
     ll res=1;
@@ -168,57 +161,51 @@ ll bioexpo(ll a,ll b)
     return res;
 }
 ll n,m,x,y;
-ll black[N];
-ll white[N];
+ll w[N],b[N];
+ll dp[N][2];
 int main(){
 
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
 
-
     read(n,m,x,y);
-    FOR(i,n)
+    FOR(i,1,n+1)
     {
-        FOR(j,m)
+        FOR(j,1,m+1)
         {
             char c;read(c);
             if(c=='#')
-            black[j+1]+=1;
+            b[j]++;
             else 
-            white[j+1]+=1;
+            w[j]++;
         }
     }
-    vector<vector<ll>>dp(m+1,vector<ll>(2,INT_MAX));
     FOR(i,1,m+1)
     {
-        black[i]+=black[i-1];
-        white[i]+=white[i-1];
-    //    cout<<black[i]<<" ";
+        b[i]+=b[i-1];
+        w[i]+=w[i-1];
+    
+    } 
+    FOR(i,m+1)
+    {
+        FOR(j,2)
+        {
+            dp[i][j]=INT_MAX;
+        }
     }
-
     dp[0][0]=0;
     dp[0][1]=0;
-
-    FOR(i,1,m+1)
+    FOR(i,x,m+1)
     {
         FOR(j,x,y+1)
         {
-            if(i-j>=0)
-            { 
-            
-                ll b =black[i-j-1];
-                ll w = white[i-j-1];
-            
-
-                dp[i][0] = min(dp[i][0],dp[i-j][0]+white[i-1]-w);
-                dp[i][1] = min(dp[i][1],dp[i-j][1]+black[i-1]-b);
-              //  cout<<dp[i][0]<<"\n";
-
-            }
+           
+            dp[i][0]=min(dp[i][0],dp[i-j][0]+w[i]-w[i-j]);
+            dp[i][1]=min(dp[i][1],dp[i-j][1]+b[i]-b[i-j]);
+              // cout<<dp[i][0]<<" "<<dp[i][1]<<"\n";
         }
-    }
-
+    }   
     print(min(dp[m][0],dp[m][1]));
 
     return 0;
