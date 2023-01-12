@@ -1,0 +1,1 @@
+{"name":"Local: Generate_Parenthesis","url":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\Generate_Parenthesis.cpp","tests":[{"id":1666033602683,"input":"3","output":"()() \n(())"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\Generate_Parenthesis.cpp","group":"local","local":true}

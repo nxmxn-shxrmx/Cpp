@@ -1,0 +1,1 @@
+{"name":"Local: rook","url":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\rook.cpp","tests":[{"id":1666276910106,"input":"2\n2 2\n1 2\n2 1\n3 1\n2 2","output":"NO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\rook.cpp","group":"local","local":true}

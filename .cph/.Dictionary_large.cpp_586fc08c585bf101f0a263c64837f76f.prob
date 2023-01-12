@@ -1,0 +1,1 @@
+{"name":"Local: Dictionary_large","url":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\Dictionary_large.cpp","tests":[{"id":1666042597453,"input":"cab","output":"cba"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\Dictionary_large.cpp","group":"local","local":true}

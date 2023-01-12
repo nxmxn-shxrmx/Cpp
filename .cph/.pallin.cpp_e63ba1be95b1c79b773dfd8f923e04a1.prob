@@ -1,0 +1,1 @@
+{"name":"Local: pallin","url":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\pallin.cpp","tests":[{"id":1670674595384,"input":"6\n15 10 15 34 25 15","output":"15 25 34 25 15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\pallin.cpp","group":"local","local":true}

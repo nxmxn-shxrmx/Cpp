@@ -1,0 +1,1 @@
+{"name":"Local: ratchase","url":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\ratchase.cpp","tests":[{"id":1666372161134,"input":"5 4\nOXOO\nOOOX\nXOXO\nXOOX\nXXOO","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\ratchase.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Boardpath","url":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\Boardpath.cpp","tests":[{"id":1666033363817,"input":"3\n3","output":"111 12 21 3 \n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\Boardpath.cpp","group":"local","local":true}

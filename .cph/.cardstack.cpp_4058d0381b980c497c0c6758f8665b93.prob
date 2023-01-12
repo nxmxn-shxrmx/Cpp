@@ -1,0 +1,1 @@
+{"name":"Local: cardstack","url":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\cardstack.cpp","tests":[{"id":1670091986201,"input":"5 1\n3 4 7 6 5","output":"4\n6\n3\n7\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\cardstack.cpp","group":"local","local":true}

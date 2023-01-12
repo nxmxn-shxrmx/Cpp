@@ -4,6 +4,7 @@
         "limits": "cpp",
         "valarray": "cpp",
         "chrono": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "iostream": "cpp"
     }
 }

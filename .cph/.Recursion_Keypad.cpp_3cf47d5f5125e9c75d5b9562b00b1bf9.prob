@@ -1,0 +1,1 @@
+{"name":"Local: Recursion_Keypad","url":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\Recursion_Keypad.cpp","tests":[{"id":1666044232574,"input":"12","output":"ad ae af bd be bf cd ce cf\n9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\Recursion_Keypad.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: mobil","url":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\mobil.cpp","tests":[{"id":1670095822300,"input":"12","output":".a\n.b\n.c\n+a\n+b\n+c\n@a\n@b\n@c\n$a\n$b\n$c"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\mobil.cpp","group":"local","local":true}

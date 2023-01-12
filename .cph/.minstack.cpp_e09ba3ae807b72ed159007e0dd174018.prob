@@ -1,0 +1,1 @@
+{"name":"Local: minstack","url":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\minstack.cpp","tests":[{"id":1670098575233,"input":"7\npush push push getMin pop top getMin\n-2 0 -3","output":"-3 0 -2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\asus\\OneDrive\\Documents\\Documents\\Cpp\\minstack.cpp","group":"local","local":true}
