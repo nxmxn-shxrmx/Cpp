@@ -5,6 +5,12 @@
         "ostream": "cpp",
         "iostream": "cpp",
         "cmath": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "string": "cpp"
     }
 }

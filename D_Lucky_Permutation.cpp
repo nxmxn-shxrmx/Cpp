@@ -171,36 +171,22 @@ int main(){
     while(t--)
     {
         int n;cin>>n;
-        vt<int>v(n);
-        FOR(i,n)read(v[i]);
-        int u =0;
-        FOR(i,n-1)
+        vector<int>v;
+        FOR(n)
         {
-            int a = v[i]-1;
-            int b = v[i+1]-1;
-            if(a-b==1 && a==i+1)
-                u=2;
-            else if(a==i+1 || b==i)
-            u = max(1,u);
+            int f;cin>>f;
+            v.pb(f-1);
         }
-       int c= 0;
-       FOR(i,n)
-        while(v[i]-1!=i)
+        int b = 0;
+        FOR(i,1,n)
         {
-            swap(v[v[i]-1],v[i]);
-            c++;
+            if(abs(v[i]-v[i-1])==1)
+            {
+                if(v[i-1]==i && v[i]==i-1)
+                    b = 1;
+            }
+            
         }
-        if(c==0 && u==2)
-            print(0);
-        
-        else if(u==2 || u==1)
-        {
-            c-=1;
-            print(c);
-        }
-        else
-            print(c+1);
-
     }
 
     return 0;

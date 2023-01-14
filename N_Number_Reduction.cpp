@@ -167,22 +167,55 @@ int main(){
     cin.tie(0);
     cout.tie(0);
 
-//99371 298113 71 295289 
-    vector<int>v;
-    int n;cin>>n;
-    for(int i = 0;i<n;++i)
+    int t;cin>>t;
+    int j = 1;
+    while(t--)
     {
-        int f;cin>>f;
-        if(v.size()>=2)
-        {
-            if(__gcd(v[v.size()-2],f)!=1)
-            v.pop_back();
-           // v.push_back(f);
-        }
+        string s;cin>>s;
+        int k;cin>>k;
 
-        
-        v.push_back(f);
+        vector<char>v;
+        v.push_back(s[0]);
+        int p = 0;
+        int c = 0;
+        for(int i =1;i<s.size();++i)
+        {
+            if(s[i]=='0')
+            {
+                if(p==0)
+                    p = i;
+
+                while(v.size()!=1 && k && v.back()>s[i])
+                {
+                    v.pop_back();
+                    k--;
+                }
+                c++;
+            }
+            else 
+            {
+                while(v.size() && k && v.back()>s[i])
+                {
+                    v.pop_back();
+                    k--;
+                }
+                if(v.back()=='0' && v[0]>s[i])
+                {
+                    if(k>=v.size())
+                    {
+                        k-=v.size();
+                        v.clear();
+                    }
+                }
+            }
+            v.push_back(s[i]);
+        }
+      
+        for(int i =0;i<v.size()-k;++i)
+        cout<<v[i];
+        cout<<"\n";
+        j++;
     }
-    print(v);
+
     return 0;
 }
